@@ -78,8 +78,8 @@ def predict_image(img):
 
 # Streamlit arayüzü
 
-st.html('<table><tr><td><img src="bilsemlogoTel.png"></td><td><h1>Fasulye Hastalığı Tespit Uygulaması</h1></td></tr></table>')
-st.title("Fasulye Hastalığı Tespit Uygulaması")
+st.html("<table><tr><td><img src='bilsemlogoTel.png'></td><td><h1>Fasulye Hastalığı Tespit Uygulaması</h1></td></tr></table>")
+
 
 camera_input = st.camera_input('Kameradan resim çek')
 gallery_input = st.file_uploader('VEYA Fasulye Fotoğrafı Ekleyin', accept_multiple_files=False)
