@@ -78,7 +78,7 @@ def predict_image(img):
 
 # Streamlit arayüzü
 
-col1, col2, col3 = st.columns([1,4,1])
+col1, col2, col3 = st.columns([1,1,1])
 
 with col1:
     st.write("")
