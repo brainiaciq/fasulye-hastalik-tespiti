@@ -89,7 +89,7 @@ with col2:
 with col3:
     st.write("")
 
-st.html('<h1 al,gn="center">Fasulye Hastalığı Tespit Uygulaması </h1>')
+st.html('<h1 align="center">Fasulye Hastalığı Tespit Uygulaması </h1>')
 
 
 camera_input = st.camera_input('Kameradan resim çek')
