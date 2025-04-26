@@ -78,7 +78,7 @@ def predict_image(img):
 
 # Streamlit arayüzü
 
-st.image("bilsemlogo.png", width=250)
+st.image("bilsemlogo.png")
 st.title("Fasulye Hastalığı Tespit Uygulaması")
 
 camera_input = st.camera_input('Kameradan resim çek')
