@@ -78,7 +78,7 @@ def predict_image(img):
 
 # Streamlit arayüzü
 
-st.html("<table><tr><td><img src='bilsemlogoTel.png'></td><td><h1>Fasulye Hastalığı Tespit Uygulaması</h1></td></tr></table>")
+st.html("html.html")
 
 
 camera_input = st.camera_input('Kameradan resim çek')
