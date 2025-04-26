@@ -81,13 +81,13 @@ def predict_image(img):
 col1, col2, col3 = st.beta_columns([1,6,1])
 
 with col1:
-st.write("")
+    st.write("")
 
 with col2:
-st.image("bilsemlogoTel.png")
+    st.image("bilsemlogoTel.png")
 
 with col3:
-st.write("")
+    st.write("")
 
 
 camera_input = st.camera_input('Kameradan resim çek')
