@@ -89,6 +89,8 @@ with col2:
 with col3:
     st.write("")
 
+st.html('<h1>Fasulye Hastalığı Tespit Uygulaması </h1>')
+
 
 camera_input = st.camera_input('Kameradan resim çek')
 gallery_input = st.file_uploader('VEYA Fasulye Fotoğrafı Ekleyin', accept_multiple_files=False)
