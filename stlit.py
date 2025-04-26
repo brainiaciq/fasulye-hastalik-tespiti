@@ -79,7 +79,9 @@ def predict_image(img):
 # Streamlit arayüzü
 
 st.image("bilsemlogoTel.png")
+st.title('<p align="center">')
 st.title("Fasulye Hastalığı Tespit Uygulaması")
+st.title('</p>')
 
 camera_input = st.camera_input('Kameradan resim çek')
 gallery_input = st.file_uploader('VEYA Fasulye Fotoğrafı Ekleyin', accept_multiple_files=False)
