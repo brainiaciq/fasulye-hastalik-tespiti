@@ -79,7 +79,9 @@ def predict_image(img):
 # Streamlit arayüzü
 
 yol="brainiaciq/fasulye-hastalik-tespiti/bilsemlogoTel.png"
-st.html(f"<img src={yol}><h1>Fasulye Hastalığı Tespit Uygulaması</h1>")
+left_co, cent_co,last_co = st.columns(3)
+with cent_co:
+    st.image(yol)
 
 
 camera_input = st.camera_input('Kameradan resim çek')
