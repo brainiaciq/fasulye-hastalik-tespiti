@@ -78,7 +78,7 @@ def predict_image(img):
 
 # Streamlit arayüzü
 
-yol="bilsemlogoTel.png"
+yol="brainiaciq/fasulye-hastalik-tespiti/bilsemlogoTel.png"
 st.html(f"<table><tr><td><img src={yol}></td><td><h1>Fasulye Hastalığı Tespit Uygulaması</h1></td></tr></table>")
 
 
